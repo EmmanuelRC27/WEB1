@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js 2</title>
+  </head>
+  <body>
+    <!-- <div>
+      <div class="titulo">JS</div>
+      <button onclick="cambiarColor">Cambiar Color</button>
+    </div>
+    <form onsubmit="return validar()" method="get">
+      <label for="valor">Valor:</label>
+      <input type="text" name="valor" id="valor" />
+      <input type="submit" value="Presionar" />
+    </form>
+    <button onclick="enviarMensaje('Hola Mundo........', 15)">Mensaje</button>
+
+    <button value="5" id="5">5</button> -->
+
+    <form onsubmit="validar()" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="valor" id="nombre" />
+      <input type="submit" value="Presionar" />
+    </form>
+
+    <form onsubmit="return validar()" method="get">
+      <label for="numero">numero:</label>
+      <input type="text" name="numero" id="numero" />
+    </form>
+    <form>
+      <label for="opciones">Selecciona una opción:</label>
+      <select id="opciones" name="opciones">
+        <option value="" selected>-- Selecciona una opción --</option>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+      </select>
+    </form>
+    <form onsubmit="return validar()" method="get">
+      <label for="correo">correo:</label>
+      <input type="text" name="correo" id="correo" />
+    </form>
+
+    <form onsubmit="return validar()" method="get">
+      <label for="ano">año:</label>
+      <input type="text" name="correo" id="ano" />
+      <label for="mes">mes:</label>
+      <input type="text" name="correo" id="mes" />
+      <label for="dia">dia:</label>
+      <input type="text" name="correo" id="dia" />
+    </form>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
