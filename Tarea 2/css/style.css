@@ -1,0 +1,39 @@
+body {
+  background-color: #f5f5f5;
+}
+.container {
+  margin-top: 100px;
+}
+.card {
+  padding: 20px;
+}
+.input-field input[type=text]:focus + label,
+.input-field input[type=password]:focus + label {
+  color: #2196f3 !important;
+}
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #2196f3 !important;
+  box-shadow: none !important;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+}
+.left {
+  float: left;
+  background-color: #f5f5f5;
+}
+.right {
+  margin-top: 30px;
+  right: 0;
+  height: 625px;
+  background-image: url(/imagen/mujer\ en\ la\ ciudad.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
