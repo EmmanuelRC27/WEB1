@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(221, 155, 155);
+    color: white;
+}
+
+div.menu div.options ul li a{
+color: rgb(180, 40, 40);
+}
+
+div.menu span.options ul li a{
+    color: red;
+    }
+
+div#page > div{
+    color: rgb(17, 0, 255);
+}
+
+div#page + div + div{
+    color: blue;
+    
+}
+div.post span + span{
+    color: salmon;
+}
+
+div.post strong ~ strong{
+    background-color: brown;
+}
+
+div#menu *{
+    color: yellowgreen;
+}
+
+div#menu h1:hover{
+    color: blueviolet;
+}
+
+.nombre:focus{
+    background-color: magenta;
+    color: black;
+}
+
+.imagen {
+    width: 130px;
+    height: 130px;
+}
+.imagen:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    box-shadow: 15px 5px 5px rgb(82, 82, 82);
+}
